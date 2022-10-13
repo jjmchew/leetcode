@@ -70,7 +70,7 @@ function maxAreaOfIsland(grid: number[][]): number {
 
     } while ( next[0] !== -1 );
     
-    debug && console.log('checked:');
+    debug && console.log('checked: ');
     debug && printGrid(checked);
 
     return maxArea;
